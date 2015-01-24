@@ -1,0 +1,21 @@
+loading	base.path	batch	counts.fileName	ctrls	D	D.counts	D.counts.paths	D.paths	Dlength	extract	get.approved.symbol	knockDowns	load.data	merge.symbols	path	plot.diff	plot.ma	plot.reproducibility	rename	rpkm.fileName	sample.path.position	samples.renamed	swap	Targetgenes	TG2	xref	xref.file
+removeShortGenes	D2analysis	Dlonger150	Dsymbols
+selectReplicates	DsubJ	DsubNames
+defineDesign	design	Dsel	exps	isexpr	pickNames
+voomTransform	D4nem
+limmaFunction	applyLimma
+scoringFunction	netScore
+bfFunction	fullSimpleBF
+limmaProcess	subJdata
+CommonSense differential expression	allZero
+defineModels	buildTopologyClasses
+modelBF	dataBFtopologyClasses
+knockdownSelection3	rnaiDisc	rnaiOut
+nemAnalysis3	
+elab4Fig3	
+plotBF3	ticks2
+minPorder	colorpalette	colpal	half	nrcolors	subNet1	subNet2
+minPsRBgreen	colLine	i	left	sep	sepLine
+Info	
+Packages	
+image libraries	

@@ -1,0 +1,53 @@
+%%---------------------------------------------------------------------------------%%
+%% knitr files for the supplementary material to the paper "Nested effects modelling of Wnt signalling predicts the sensitization of cancer cells to Wnt ligands in colorectal cancer."
+%% Giusi Moffa
+%% University of Regensburg
+%
+%% Last modified: July 16, 2014
+%
+%% Disclaimer: The code in this archive is not guaranteed to be optimised or free of bugs.
+%% Please report any issues to the authors (giusi.moffa@ur.de).
+%%---------------------------------------------------------------------------------%%
+
+
+%%% From within the working folder run the following
+%%% library(knitr)
+% purl("wntSupp.Rnw") ## to extract the code
+% knit('wntSupp.Rnw')
+
+\documentclass[a4paper]{article}
+\Sexpr{opts_chunk$set(echo=TRUE, tidy=TRUE, width=70, cache=FALSE)}
+
+\usepackage{a4wide}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{color}
+\usepackage{natbib}
+
+\begin{document}
+\setkeys{Gin}{width=.9\textwidth}
+%\Sexpr{opts_chunk$set(eval=FALSE)}
+
+\title{Bayesian model comparison of nested effect models for Wnt signalling analysis \\
+{\small Supplement to ``Nested effects modelling of Wnt signalling suggests the sensitization of cancer cells to Wnt ligands in colorectal cancer''.}}
+%\subtitle{Supplement to ``Wnt secretion is required for colon cancer cell survival''}
+\author{Giusi Moffa}
+\date{}
+
+\maketitle
+
+%%%----------------------------------------------------------%%%
+%%%--------- Input data analysis file----------%%%
+<<wnt-analysis, child='wntSuppChild.Rnw', eval=TRUE>>=
+@
+%%%----------------------------------------------------------%%%
+
+%%%--------- Input noConan tex ----------%%%
+\newpage
+\section*{No-Conan on RNAseq expression data from the Wnt pathway in colorectal cancer}
+\input noConan.tex
+%%%----------------------------------------------------------%%%
+
+\clearpage
+\bibliographystyle{plainnat}
+\bibliography{WNTcrc}
+\end{document}

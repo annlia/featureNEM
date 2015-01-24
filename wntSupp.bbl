@@ -1,0 +1,27 @@
+\begin{thebibliography}{3}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Law et~al.(2014)Law, Chen, Shi, and Smyth]{art:Smyth2014}
+Charity~W Law, Yunshun Chen, Wei Shi, and Gordon~K Smyth.
+\newblock voom: precision weights unlock linear model analysis tools for
+  rna-seq read counts.
+\newblock \emph{Genome Biology}, 15:\penalty0 R29, 2014.
+
+\bibitem[Sadeh et~al.(2013)Sadeh, Moffa, and Spang]{art:SadehMS2013}
+Mohammad~J. Sadeh, Giusi Moffa, and Rainer Spang.
+\newblock Considering unknown unknowns - reconstruction of non-confoundable
+  causal relations in biological networks.
+\newblock \emph{Journal of Computational Biology}, 20:\penalty0 920--932, 2013.
+
+\bibitem[Smyth(2004)]{art:Smyth2004}
+Gordon~K. Smyth.
+\newblock Linear models and empirical bayes methods for assessing differential
+  expression in microarray experiments.
+\newblock \emph{Statistical Applications in Genetics and Molecular Biology}, 3,
+  2004.
+
+\end{thebibliography}

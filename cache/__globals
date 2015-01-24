@@ -1,0 +1,21 @@
+loading	load
+removeShortGenes	>	D.counts	Dlength	names	rownames	which
+selectReplicates	c	colnames	D2analysis	dim	grep
+defineDesign	>	>=	~	colnames	colnames<-	cpm	dim	DsubJ	factor	gsub	head	library	make.names	model.matrix	rowSums	sapply	strsplit	unlist	unname
+voomTransform	design	Dsel	voom
+limmaFunction	~	colnames	colnames<-	contrasts.fit	eBayes	factor	list	lmFit	make.names	makeContrasts	model.matrix	paste	require	return	setdiff	unique
+scoringFunction	!	==	all	diag	diag<-	exp	if	log	ncol	rowSums	sum
+bfFunction	c	exp	length	log	max	sum
+limmaProcess	[[	$	applyLimma	colnames<-	D4nem	exp
+CommonSense differential expression	<	Dsel	max	postProbDE	rowSums	which
+defineModels	!	[[	$	c	colnames	enumerate.models	for	if	length	list	sum	unique	which
+modelBF	>	$	any	apply	c	cbind	colnames<-	dim	for	fullSimpleBF	list	matrix	netScore	sapply	seq	T	which
+knockdownSelection3	c	library
+nemAnalysis3	$	buildTopologyClasses	dataBFtopologyClasses	rnaiDisc	rnaiOut	subJodd
+elab4Fig3	>	$	library	topClassBF	which
+plotBF3	==	>	>=	$	abline	axis	axTicks	c	cutsPlot	extendrange	matBFplot	min	mtext	par	plot	range	round	seq	text	topClassBF	which
+minPorder	[<-	<	>	>=	$	any	apply	brewer.pal	c	colorRampPalette	min	order	postProbDE	quantile	seq	topClasses	which
+minPsRBgreen	abline	axis	c	colnames	colnames<-	colorpalette	for	image	image.plot	knockdown	matrix	modelPde	ncol	nrow	orderPs	par	quantileBreaks	rbind	rev	rgb	runif	seq
+Info	sessionInfo
+image libraries	library
+Packages	biocLite	library	source
