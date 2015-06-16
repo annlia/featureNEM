@@ -242,7 +242,7 @@ BetaCatRank[which(BetaCatRank$ID %in% genePick),]
 \begin{figure}[htbp]
 \begin{center}
 vspace{-3ex}
-<<Efficiency barplot, fig=TRUE, fig.width=6, fig.height=4, tidy=FALSE>>=
+<<Efficiency_barplot, fig=TRUE, fig.width=6, fig.height=4, tidy=FALSE>>=
 par(cex=1.2)
 barplot(knockPlot, width=.2, space=2, names.arg=c("CTRL",knockdown), 
         xlim=c(0,3), cex.axis=1.1, axis.lty=1, ylab="knockdown efficiencies",

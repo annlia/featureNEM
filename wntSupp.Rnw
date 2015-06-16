@@ -9,7 +9,20 @@
 %% Please report any issues to the authors (giusi.moffa@ur.de).
 %%---------------------------------------------------------------------------------%%
 
+%%% define gene names
+\newcommand{\betaCatG}{\emph{CTNNB1/$\beta$-catenin}}
+\newcommand{\apcG}{\emph{APC}}
+\newcommand{\eviG}{\emph{EVI/WLS}}
+\newcommand{\tcfG}{\emph{TCF7L2}}
 
+%%% define protein names
+\newcommand{\betaCatP}{$\beta$-catenin}
+\newcommand{\apcP}{Apc}
+\newcommand{\eviP}{Evi/Wls}
+\newcommand{\tcfP}{Tcf4}
+
+%%% notation
+\newcommand{\mydata}{\boldsymbol D}
 %%% From within the working folder run the following
 %%% library(knitr)
 % purl("wntSupp.Rnw") ## to extract the code
